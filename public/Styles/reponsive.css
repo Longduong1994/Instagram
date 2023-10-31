@@ -1,0 +1,221 @@
+/* 1.tablet
+2.smatphone */
+
+
+/* 1.tablet */
+@media screen and (max-width: 1024px) {
+    .sidebar-left {
+        width: 65px;
+    }
+
+    .logo-show {
+        display: none;
+    }
+
+    .logo-hidden {
+        display: block;
+    }
+
+    .sidebar-left b,
+    .sidebar-left span {
+        display: none;
+    }
+
+    .sidebar-left ._ab6- {
+        display: none;
+    }
+
+    .ab6-show {
+        font-size: 200px;
+    }
+
+    .sidebar-right {
+        display: none;
+    }
+
+    .main {
+        margin-right: 250px;
+    }
+
+    .ab6-show {
+        display: flex;
+    }
+
+    .action,
+    .bars {
+        font-size: 17px;
+        border: none;
+        display: flex;
+        align-items: center;
+        padding: 1px;
+        border-radius: 5px;
+        cursor: pointer;
+        gap: 40px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .list-action {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 45px;
+    }
+
+    .profile-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-right: -78px;
+        padding-left: 154px;
+        margin-top: 40px;
+    }
+
+    .profile-information form {
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .search-box {
+        width: 50%;
+        height: 750px;
+        border: 1px solid #dfdbdb;
+        margin-left: 220px;
+        border-radius: 0 20px 20px 0;
+        position: fixed;
+        left: -156px;
+        background-color: #fff;
+        transition: 'width 0.3s ease-in-out';
+    }
+
+    create-box {
+        background-color: #000000;
+        width: 400px;
+        height: 600px;
+        border: 1px solid #efeded;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 15px;
+        position: absolute;
+        top: 50px;
+        left: 340px;
+        color: #fff;
+        opacity: 0.8;
+    }
+    .search-box {
+        width: 37%;
+        height: 750px;
+        border: 1px solid #dfdbdb;
+        margin-left: 220px;
+        border-radius: 0 20px 20px 0;
+        position: fixed;
+        left: -156px;
+        background-color: #fff;
+        transition: 'width 0.3s ease-in-out';
+    }
+    .container{
+        margin-left: -45px;
+    }
+}
+
+/* 2. smatphone */
+@media screen and (max-width: 480px) {
+    .main {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        margin-top: 60px;
+    }
+
+    .sidebar-left {
+        display: none;
+    }
+
+    .list-folowing {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-left: -70px;
+    }
+
+    .list-folowing-box {
+        width: 630px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 90px;
+        padding-top: 20px px;
+        gap: 10px;
+    }
+
+    .post {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin-left: -353px;
+    }
+
+    .navbar-ip {
+        display: block;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 10px;
+        position: fixed;
+        top: 0;
+        background-color: #fff;
+        border-bottom: 1px solid #dadada;
+    }
+
+    .navbar-ip input {
+        outline: none;
+        padding: 5px 10px;
+        background-color: #d6d1d1;
+        border: none;
+        border-radius: 5px;
+        width: 250px;
+    }
+
+    .sidebar-footer-img {
+        background-size: cover;
+        width: 30px;
+        height: 30px;
+        list-style-type: none;
+        background-image: linear-gradient(120deg, red, rgb(255, 255, 61), rgb(255, 0, 255));
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sidebar-footer-img img {
+        width: 90%;
+        height: 90%;
+        border-radius: 50%;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+
+    .side-footer {
+        background-color: #dadada;
+        cursor: pointer;
+        display: block;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+    }
+
+    .login-img {
+        display: none;
+    }
+
+}
